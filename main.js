@@ -52,4 +52,5 @@ country to a list of dream places by clicking the "btn" element. */
 
 document.getElementById("btn").addEventListener("click",addCountry);
 
-
+//minified code
+// var target,images={Italy:"./images/italy.jpeg",Myanmar:"./images/myanmar.jpeg",Egypt:"./images/egypt.jpeg",Peru:"./images/peru.jpeg",Rwanda:"./images/rwanda.jpeg"};document.getElementById("img").src=images.Italy,document.getElementById("img").style.height="300px",document.getElementById("img").style.width="600px";for(var i=0;i<document.getElementsByClassName("list").length;i++)document.getElementsByClassName("list")[i].addEventListener("click",function(){document.getElementById("img").src=images[this.innerText]});function addCountry(){var e=document.getElementById("dream").value,t=document.createElement("li");t.innerText=e,document.getElementById("dream-places-list").append(t)}document.getElementById("btn").addEventListener("click",addCountry);
